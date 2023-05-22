@@ -123,7 +123,7 @@
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "ngx-mat-drp",
-      "styleext": "css"
+      "style": "css"
     },
     "@schematics/angular:directive": {
       "prefix": "ngx-mat-drp"
