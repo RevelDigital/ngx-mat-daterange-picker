@@ -119,7 +119,6 @@
       }
     }
   },
-  "defaultProject": "ngx-mat-daterange-picker",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "ngx-mat-drp",

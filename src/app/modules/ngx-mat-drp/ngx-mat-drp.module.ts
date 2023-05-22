@@ -16,26 +16,25 @@ import { PresetsComponent } from './presets/presets.component';
 import { DATE } from './services/range-store.service';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    MatFormFieldModule,
-    MatDatepickerModule,
-    MatNativeDateModule,
-    MatInputModule,
-    MatButtonModule,
-    MatTooltipModule,
-    OverlayModule
-  ],
-  declarations: [
-    NgxMatDrpComponent,
-    CalendarWrapperComponent,
-    PickerOverlayComponent,
-    PresetsComponent
-  ],
-  providers: [
-    {provide: DATE, useValue: new Date()}
-  ],
-  entryComponents: [PickerOverlayComponent],
-  exports: [NgxMatDrpComponent]
+    imports: [
+        CommonModule,
+        MatFormFieldModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatInputModule,
+        MatButtonModule,
+        MatTooltipModule,
+        OverlayModule
+    ],
+    declarations: [
+        NgxMatDrpComponent,
+        CalendarWrapperComponent,
+        PickerOverlayComponent,
+        PresetsComponent
+    ],
+    providers: [
+        { provide: DATE, useValue: new Date() }
+    ],
+    exports: [NgxMatDrpComponent]
 })
 export class NgxMatDrpModule { }
