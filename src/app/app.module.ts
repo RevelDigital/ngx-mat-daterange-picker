@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NgxMatDrpModule } from './modules/ngx-mat-drp/ngx-mat-drp.module';
+import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NgxMatDrpModule } from './modules/ngx-mat-drp/ngx-mat-drp.module';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    NgxMatDrpModule
+    NgxMatDrpModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

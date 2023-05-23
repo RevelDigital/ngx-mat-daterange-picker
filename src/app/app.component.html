@@ -1,9 +1,9 @@
 <div class="demo-main">
 
   <div class="demo-box">
-    Selected date from: {{range.fromDate|date}} to: {{range.toDate|date}} 
+    Selected date from: {{range.fromDate|date}} to: {{range.toDate|date}}
   </div>
-  <button (click)="reset()">Reset Dates</button>
+  <button mat-raised-button (click)="reset()">Reset Dates</button>
   <button (click)="clearFrom()">Clear From</button>
   <button (click)="clearTo()">Clear To</button>
   <button (click)="clear()">Clear Dates</button>
